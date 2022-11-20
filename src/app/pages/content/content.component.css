@@ -1,0 +1,38 @@
+.content-container {
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-container a {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgba(128, 128, 128, 0.5);
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: ease .5s;
+}
+
+.content-container a:hover {
+    color: #fff;
+}
+
+.content-cover img {
+    border: 5px solid #808080;
+    border-radius: 5px;
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+}
+
+.content-description {
+    margin: 15px 0;
+}
+
+.content-description p {
+    color: #808080
+}

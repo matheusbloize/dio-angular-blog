@@ -3,6 +3,7 @@
     font-size: 135px;
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
 
 .menu-title-container hr {
